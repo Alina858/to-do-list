@@ -26,22 +26,42 @@
 <header class="text-center text-light my-4"> <!-- header center light margin 4 in y direction -->
 <h1 class= "mb-4">Todo List</h1>
 <form class="search"> <!--later in js-->
-<input class="form-control m-auto" type="text" name="search" placeholder="search todos" /> <!--Text input for searching todos -->
+<input class="form-control m-auto " type="text" name="search" placeholder="search todos" /> <!--Text input for searching todos -->
 
 </form>
 </header>
 
 
+<!--List for to dos  bootstrap class / our class margin ... -->
+<ul class="list-group todos mx-auto text-light" >
+  <li class ="list-group-item d-flex justify-content-between align-items-center text-light">
+    <span>finish building portfolio</span>
+    <i class="far fa-solid fa-address-card delete"></i>
+    <!--font awesome-->
+  </li>
+<li class ="list-group-item d-flex justify-content-between align-items-center text-light">
+    <span>re-study react hooks</span>
+    <i class="far fa-solid fa-anchor delete"></i>
+    <!--font awesome-->
+  </li>
+<li class ="list-group-item d-flex justify-content-between align-items-center text-light">
+    <span>defeat final boss in hollow night </span>
+    <i class="far fa-solid fa-gamepad delete"></i>
+    <!--font awesome-->
+  </li>
+<li class ="list-group-item d-flex justify-content-between align-items-center text-light">
+    <span>bake chocolate-chip cookies </span>
+    <i class="far fa-solid fa-cookie delete"></i>
+    <!--font awesome-->
+  </li>
+</ul>
+
+<form class="add text-center my-4">
+  <label class="text-light">Add a new to-do...</label>
+  <input class="form-control m-auto" type="text" name="add" />
 
 
-
-
-
-
-
-
-
-
+</form>
 
 
 </div>
@@ -55,7 +75,7 @@
 
 
 
-    <script src"app.js></script>
+    <script src="app.js"> </script>
 
 </body>
 </html>
