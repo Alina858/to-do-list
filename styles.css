@@ -1,8 +1,12 @@
 
 
 body{
-    background: #352f5b;
+    background: #6B1500
+
+;
 }
+
+
 
 
 .container{
@@ -15,17 +19,20 @@ input[type=text]:focus{
     border: none;
     background: rgba(0,0,0,0.2);
     max-width: 400px;
-    
 }
+
 .todos li{
-    background: #423a6f
+    background: #901D27 ;
 }
 
 .delete{
     cursor: pointer;
 }
 
-
+.form-control::placeholder {
+  color: white !important;
+  opacity: 0.7;
+}
 
 
 
