@@ -1,7 +1,7 @@
 
 
 body{
-    background: #6B1500
+    background: #6495ED
 
 ;
 }
@@ -22,7 +22,7 @@ input[type=text]:focus{
 }
 
 .todos li{
-    background: #901D27 ;
+    background: #4169E1 ;
 }
 
 .delete{
